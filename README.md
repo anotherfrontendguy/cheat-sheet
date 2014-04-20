@@ -1,6 +1,6 @@
 ## Tmux
 
-[must-haves](http://robots.thoughtbot.com/a-tmux-crash-course)
+[must-haves](http://robots.thoughtbot.com/a-tmux-crash-course#must-haves)
 
 ```sh
 # remap prefix to Control + a
@@ -52,5 +52,14 @@ prefix + alt + 5 = copy mode -> V select -> Y yank
 | ⌃U    | delete from the cursor to the beginning of the line            |
 | ⌃W    | delete from the cursor to the beginning of the current word    |
 
-esc+B: move back one word
+esc+B: move back one word  
 esc+F: move forward one word
+
+### Non-Recursive Find
+
+e.g. list all .dotfiles in your home directory
+
+```sh
+find ~ -maxdepth 1 -type f -name ".*"
+```
+
