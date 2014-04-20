@@ -20,7 +20,7 @@ bind ^A select-pane -t :.+
 ### Splits
 
 | Key           | Action          |
-| :------------ |:----------------|
+|:--------------|:----------------|
 | prefix + %    | vertical split  |
 | prefix + "    | horizontal split|
 
@@ -39,3 +39,18 @@ bind ^A select-pane -t :.+
 ### not yet ordered
 prefix + s = choose session  
 prefix + alt + 5 = copy mode -> V select -> Y yank
+
+## Terminal
+
+| Key   | Action                                                         |
+|:------|:-------------------------------------------------------------- |
+| ⌃A    | moves to the start of the line                                 |
+| ⌃B    | move back one character                                        |
+| ⌃E    | moves to the end of the line                                   |
+| ⌃F    | move forward one character                                     |
+| ⌃K    | delete from the cursor to the end of the line                  |
+| ⌃U    | delete from the cursor to the beginning of the line            |
+| ⌃W    | delete from the cursor to the beginning of the current word    |
+
+esc+B: move back one word
+esc+F: move forward one word
