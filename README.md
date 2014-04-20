@@ -57,7 +57,9 @@ esc+F: move forward one word
 
 ### Non-Recursive Find
 
-e.g. list all .dotfiles in your home directory
+e.g. list all .dotfiles in your home directory  
+*note: if you symlink your dotfiles (e.g. with [rcm](https://github.com/thoughtbot/rcm))
+you would have to exchange `-type f` with `-type l`*
 
 ```sh
 find ~ -maxdepth 1 -type f -name ".*"
