@@ -27,7 +27,7 @@ bind ^A select-pane -t :.+
 ### Window Management
 
 | Key           | Action               |
-| ------------- | -------------------- |
+|:------------- |:-------------------- |
 | prefix + c    | new window           |
 | prefix + n    | next window          |
 | prefix + p    | previous window      |
