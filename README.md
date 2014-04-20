@@ -65,3 +65,13 @@ you would have to exchange `-type f` with `-type l`*
 find ~ -maxdepth 1 -type f -name ".*"
 ```
 
+## Sublime
+
+| Key    | Action                                                         |
+|:-------|:-------------------------------------------------------------- |
+| ⌃⌘↑    | move line/selection up                                         |
+| ⌃⌘↓    | move line/selection do wn                                      |
+| ⇧⌘↵    | insert line before                                             |
+| ⌘X     | delete line                                                    |
+| ⌃M     | jump to matching brack et                                      |
+| ⇧⌃M    | select between current  parantheses                            |
