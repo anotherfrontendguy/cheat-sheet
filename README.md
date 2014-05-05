@@ -36,8 +36,19 @@ bind ^A select-pane -t :.+
 | prefix + &    | confirm kill window  |
 | prefix + ,    | rename window        |
 
+### Session Management
+
+| Key           | Action               |
+|:------------- |:-------------------- |
+| prefix + d    | detach from session |
+| prefix + (    | switch to previous session |
+| prefix + )    | switch to next session |
+| prefix + L    | last used session |
+| prefix + s    | display session list (move with arrow keys, enter to attach to a session |
+| prefix + $    | rename current session |
+
+
 ### not yet ordered
-prefix + s = choose session  
 prefix + alt + 5 = copy mode -> V select -> Y yank
 
 ## Terminal
